@@ -4,7 +4,7 @@
 
 This repository contains exercises designed to help you practice optimizing Python algorithms for better performance and readability.
 
-## 📚 What You'll Learn
+## What You'll Learn
 
 - Text processing optimization techniques
 - Efficient list operations and filtering
@@ -12,7 +12,7 @@ This repository contains exercises designed to help you practice optimizing Pyth
 - Code modularity and best practices
 - Performance analysis and improvement strategies
 
-## 🎯 Assignment Overview
+## Assignment Overview
 
 The `problems.ipynb` notebook contains two main exercises:
 
@@ -22,7 +22,7 @@ The `problems.ipynb` notebook contains two main exercises:
 
 Each exercise includes working but inefficient code that you'll optimize using better algorithms, data structures, and Python idioms.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Option 1: GitHub Codespaces (Recommended)
 1. Fork this repository to your GitHub account
@@ -43,14 +43,14 @@ Each exercise includes working but inefficient code that you'll optimize using b
 6. Launch Jupyter: `jupyter notebook`
 7. Open `problems.ipynb`
 
-## 📝 Working with the Notebook
+## Working with the Notebook
 
 - Each exercise contains the original inefficient code followed by optimization points
 - Review the provided solutions as reference implementations
 - Try implementing your own optimizations before checking the solutions
 - Run each cell to test your code and compare performance
 
-## 🎓 Learning Goals
+## Learning Goals
 
 By completing this assignment, you will:
 - Understand common performance bottlenecks in Python code
@@ -58,7 +58,7 @@ By completing this assignment, you will:
 - Practice writing clean, modular, and efficient code
 - Gain experience with Python's built-in optimization tools
 
-## 📊 Assessment
+## Assessment
 
 Focus on:
 - **Correctness**: Does your optimized code produce the same results?
@@ -66,4 +66,4 @@ Focus on:
 - **Readability**: Is your code clean and well-structured?
 - **Best Practices**: Are you using appropriate Python idioms?
 
-Happy coding! 🐍✨
+Happy coding!
