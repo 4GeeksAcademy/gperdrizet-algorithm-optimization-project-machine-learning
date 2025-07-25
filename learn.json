@@ -11,8 +11,14 @@
 	"syntax": "python",
 	"duration" : 2,
     	"projectType": "project",
+	"autoPlay": false,
 	"description" : {
-		"us": "Learn the basics on how to optimize or better build algorithms in Python for Machine Learning",
-		"es": "Aprende lo básico sobre cómo optimizar o construir mejor algoritmos en Python para Aprendizaje Automático."
-	}
+		"us": "Learn how to optimize and build better Python algorithms for Machine Learning. Follow a step-by-step guide, improve code performance and master key techniques. Complete exercises, compare solutions and improve your skills.",
+		"es": "Aprende a optimizar y construir mejores algoritmos en Python para Machine Learning. Sigue una guía paso a paso, mejora el rendimiento del código y domina técnicas clave. Completa ejercicios, compara soluciones y mejora tus habilidades."
+	},
+	"telemetry": {
+	  "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=395"
+	  },
+	"gitpod": true,
+	"template_url": "self"
 }
