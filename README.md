@@ -1,37 +1,69 @@
-<!--hide-->
-# Algorithm optimization in Python - Step by step guide
-<!--endhide-->
+# Algorithm Optimization Project
 
-- Optimize Python code.
+![Preview](assets/preview.png)
 
-## 🌱 How to start this project
+This repository contains exercises designed to help you practice optimizing Python algorithms for better performance and readability.
 
-Follow the instructions below:
+## 📚 What You'll Learn
 
-1. Create a new repository by forking the [Git project](https://github.com/4GeeksAcademy/algorithm-optimization-project-machine-learning) or [by clicking here](https://github.com/4GeeksAcademy/algorithm-optimization-project-machine-learning/fork).
-2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
-3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
+- Text processing optimization techniques
+- Efficient list operations and filtering
+- Using Python's built-in functions and data structures
+- Code modularity and best practices
+- Performance analysis and improvement strategies
 
-## 📝 Instructions
+## 🎯 Assignment Overview
 
-1. Once you start working on the project, you will see a `./notebook/problems.ipynb` file containing a list of exercises. 
+The `problems.ipynb` notebook contains two main exercises:
 
-2. Before starting, make sure to select the **appropriate Kernel**.
+1. **Text Processing Optimization** - Improve code that processes text by converting to lowercase, removing punctuation, counting word frequencies, and finding the most common words.
 
-    - When you open the notebook, a message will appear at the top indicating **"Select Kernel"**.
-    - Click on **"Select Kernel"** (as shown in the image).
+2. **List Processing Optimization** - Enhance code that filters even numbers, duplicates values, sums results, and checks for prime numbers.
 
-![image-kernel](https://github.com/4GeeksAcademy/probability-exercises-project-in-python/blob/main/assets/image-kernel.png?raw=true)
+Each exercise includes working but inefficient code that you'll optimize using better algorithms, data structures, and Python idioms.
 
-3. A list with available options will be displayed. Select **"Python Environments"** and choose the Python version you want to use.
+## 🚀 Getting Started
 
-    - Make sure to select the version specified in the `devcontainer.json` file, as this is the recommended one for the project.
+### Option 1: GitHub Codespaces (Recommended)
+1. Fork this repository to your GitHub account
+2. Click the green "Code" button on your forked repository
+3. Select "Codespaces" tab
+4. Click "Create codespace on main"
+5. Wait for the environment to load (this may take a few minutes)
+6. Open `problems.ipynb` and start working!
 
-![image-devcontainer](https://github.com/4GeeksAcademy/probability-exercises-project-in-python/blob/main/assets/devcontainer-image.png?raw=true)
+### Option 2: Local Development
+1. Fork and clone this repository
+2. Create a virtual environment: `python -m venv venv`
+3. Activate the virtual environment:
+   - On Windows: `venv\Scripts\activate`
+   - On macOS/Linux: `source venv/bin/activate`
+4. Install Jupyter: `pip install jupyter`
+5. Install dependencies: `pip install -r requirements.txt`
+6. Launch Jupyter: `jupyter notebook`
+7. Open `problems.ipynb`
 
-> Note: We also incorporated a `./notebook/solutions.ipynb` file that we strongly suggest you only use if you are stuck for more than 30 min or if you have already finished and want to compare it with your approach.
+## 📝 Working with the Notebook
 
-## 🚛 How to deliver this project
+- Each exercise contains the original inefficient code followed by optimization points
+- Review the provided solutions as reference implementations
+- Try implementing your own optimizations before checking the solutions
+- Run each cell to test your code and compare performance
 
-Once you have finished solving the exercises, be sure to commit your changes, `push` to your repository and go to 4Geeks.com to upload the repository link.
+## 🎓 Learning Goals
 
+By completing this assignment, you will:
+- Understand common performance bottlenecks in Python code
+- Learn to use appropriate data structures for different problems
+- Practice writing clean, modular, and efficient code
+- Gain experience with Python's built-in optimization tools
+
+## 📊 Assessment
+
+Focus on:
+- **Correctness**: Does your optimized code produce the same results?
+- **Efficiency**: Is your solution faster and more memory-efficient?
+- **Readability**: Is your code clean and well-structured?
+- **Best Practices**: Are you using appropriate Python idioms?
+
+Happy coding! 🐍✨
